@@ -1,0 +1,55 @@
+{
+  "DEMOAG": {
+    "searchForm": {
+      "labelCol": "60px"
+    },
+    "searchBox": {
+      "title": "查询条件"
+    },
+    "mainEfPanel": {
+      "title": "主表"
+    },
+    "subEfPanel": {
+      "title": "子表"
+    },
+    "codeClassFormItem": {
+      "label": "代码编号"
+    },
+    "unitFormItem": {
+      "label": "机组"
+    },
+    "codeNameFormItem": {
+      "label": "代码名称"
+    },
+    "partitionFormItem": {
+      "label": "分区"
+    },
+    "proTimeFormItem": {
+      "label": "生产时间"
+    },
+    "passFormItem": {
+      "label": "是否通过"
+    },
+    "weightFormItem": {
+      "label": "重量"
+    },
+    "levelFormItem": {
+      "label": "等级"
+    },
+    "addButton": {
+      "content": "新增"
+    },
+    "modifyButton": {
+      "content": "修改"
+    },
+    "deleteButton": {
+      "content": "删除"
+    },
+    "splitterPane1": {
+      "size": "30"
+    },
+    "splitterPane2": {
+      "size": "70"
+    } 
+  }
+}

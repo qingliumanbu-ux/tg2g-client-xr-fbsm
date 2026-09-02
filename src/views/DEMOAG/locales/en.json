@@ -1,0 +1,55 @@
+{
+  "DEMOAG": {
+    "searchForm": {
+      "labelCol": "100px"
+    },
+    "searchBox": {
+      "title": "query condition"
+    },
+    "mainEfPanel": {
+      "title": "main grid"
+    },
+    "subEfPanel": {
+      "title": "sub grid"
+    },
+    "codeClassFormItem": {
+      "label": "code class"
+    },
+    "unitFormItem": {
+      "label": "unit"
+    },
+    "codeNameFormItem": {
+      "label": "code name"
+    },
+    "partitionFormItem": {
+      "label": "partition"
+    },
+    "proTimeFormItem": {
+      "label": "production time"
+    },
+    "passFormItem": {
+      "label": "passed or not"
+    },
+    "weightFormItem": {
+      "label": "weight"
+    },
+    "levelFormItem": {
+      "label": "level"
+    },
+    "addButton": {
+      "content": "add"
+    },
+    "modifyButton": {
+      "content": "modify"
+    },
+    "deleteButton": {
+      "content": "delete"
+    },
+    "splitterPane1": {
+      "size": "50"
+    },
+    "splitterPane2": {
+      "size": "50"
+    }
+  }
+}

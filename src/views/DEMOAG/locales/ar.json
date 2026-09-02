@@ -1,0 +1,55 @@
+{
+  "DEMOAG": {
+    "searchForm": {
+      "labelCol": "60px"
+    },
+    "searchBox": {
+      "title": "شروط الاستعلام"
+    },
+    "mainEfPanel": {
+      "title": "الجدول الرئيسي"
+    },
+    "subEfPanel": {
+      "title": "الجدول الفرعي"
+    },
+    "codeClassFormItem": {
+      "label": "رقم الكود"
+    },
+    "unitFormItem": {
+      "label": "مجموعة"
+    },
+    "codeNameFormItem": {
+      "label": "اسم المدونة"
+    },
+    "partitionFormItem": {
+      "label": "تقسيم"
+    },
+    "proTimeFormItem": {
+      "label": "وقت الإنتاج"
+    },
+    "passFormItem": {
+      "label": "سواء من خلال"
+    },
+    "weightFormItem": {
+      "label": "وزن"
+    },
+    "levelFormItem": {
+      "label": "درجة"
+    },
+    "addButton": {
+      "content": "إضافة"
+    },
+    "modifyButton": {
+      "content": "عدل"
+    },
+    "deleteButton": {
+      "content": "حذف"
+    },
+    "splitterPane1": {
+      "size": "50"
+    },
+    "splitterPane2": {
+      "size": "50"
+    }
+  }
+}

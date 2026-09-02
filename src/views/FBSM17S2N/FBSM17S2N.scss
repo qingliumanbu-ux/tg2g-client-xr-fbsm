@@ -1,0 +1,127 @@
+.container {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  
+  .main-layout {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    
+    // 左侧按钮区域 - 20%宽度
+    .left-panel {
+      width: 20%;  // 改为20%宽度
+      min-width: 300px;  // 最小宽度
+      max-width: 1200px; // 最大宽度
+      background-color: #f5f7fa;
+      border-right: 1px solid #e4e7ed;
+      padding: 15px;
+      overflow-y: auto;
+      display: flex;
+      flex-direction: column;
+      
+      .panel-header {
+        margin-bottom: 20px;
+        padding-bottom: 10px;
+        border-bottom: 2px solid #409eff;
+        
+        h3 {
+          color: #303133;
+          font-size: 18px;
+          font-weight: 600;
+          margin: 0;
+        }
+      }
+      
+      .button-group {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;  // 稍微减小间隙
+        
+        .button-item {
+          &.active {
+            .table-button {
+              background-color: #409eff;
+              color: white;
+              border-color: #409eff;
+              box-shadow: 0 2px 8px rgba(64, 158, 255, 0.3);
+            }
+            
+            .active-indicator {
+              opacity: 1;
+            }
+          }
+          
+          .table-button {
+            width: 100%;
+            text-align: left;
+            justify-content: flex-start;
+            padding: 12px 15px;
+            transition: all 0.3s ease;
+            position: relative;
+            
+            &:hover {
+              transform: translateX(5px);
+              box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+            }
+            
+            .button-text {
+              flex: 1;
+              text-align: left;
+              font-size: 14px;
+              white-space: normal;
+              word-break: break-word;
+              line-height: 1.4;
+            }
+            
+            .active-indicator {
+              opacity: 0;
+              margin-left: 8px;
+              color: white;
+              transition: opacity 0.3s ease;
+            }
+          }
+        }
+      }
+    }
+    
+    // 右侧信息区域 - 80%宽度
+    .right-panel {
+      width: 80%;  // 改为80%宽度
+      min-width: 400px;  // 最小宽度
+      flex: 1;
+      overflow: auto;
+      display: flex;
+      flex-direction: column;
+      
+      xr-ef-form {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+      }
+      
+      // 确保表单内容在右侧区域正确布局
+      er-layout, 
+      xr-ef-panel {
+        width: 100%;
+      }
+      
+      // 查询结果面板样式调整
+      xr-ef-panel {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        
+        ::v-deep .xr-ef-panel-content {
+          flex: 1;
+          display: flex;
+          flex-direction: column;
+          
+          er-grid {
+            flex: 1;
+          }
+        }
+      }
+    }
+  }
+}
